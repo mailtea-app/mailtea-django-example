@@ -1,0 +1,4 @@
+Django>=5.2,<6.0
+mailtea==0.9.1
+# Lets settings.py read the .env file this example ships an example of.
+python-dotenv>=1.0
