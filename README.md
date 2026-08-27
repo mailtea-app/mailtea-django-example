@@ -31,7 +31,7 @@ To get the most out of this guide, you'll need to:
    ```bash
    curl -X POST http://127.0.0.1:8000/api/send \
      -H 'content-type: application/json' \
-     -d '{"to":"you@example.com","subject":"Hello","message":"Sent from Django."}'
+     -d '{"to":"you@yourdomain.com","subject":"Hello","message":"Sent from Django."}'
    ```
 
 ## What this example covers
