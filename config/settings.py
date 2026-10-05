@@ -17,8 +17,8 @@ load_dotenv(BASE_DIR / ".env")
 
 MAILTEA_API_KEY = os.environ.get("MAILTEA_API_KEY", "")
 
-# Only set for local dev or a self-hosted Mailtea. Empty means the SDK's
-# default, https://api.mailtea.app.
+# Optional override of the API host. Empty means the SDK's default,
+# https://api.mailtea.app.
 MAILTEA_API_BASE_URL = os.environ.get("MAILTEA_API_BASE_URL") or None
 
 # Must be an address on a domain you have verified in Mailtea.

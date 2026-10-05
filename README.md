@@ -36,8 +36,7 @@ To get the most out of this guide, you'll need to:
 
 ## What this example covers
 
-- Reading `MAILTEA_API_KEY` from the environment in `config/settings.py`, and
-  `MAILTEA_API_BASE_URL` for local dev or a self-hosted Mailtea
+- Reading `MAILTEA_API_KEY` from the environment in `config/settings.py`
 - Sending with the Python SDK (`mailtea.emails.send`) from an HTML form view
 - The same send from a JSON endpoint that returns the Mailtea email id
 - Rendering the HTML body from a Django template, so user input is escaped
